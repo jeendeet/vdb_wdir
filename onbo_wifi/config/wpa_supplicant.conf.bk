@@ -1,0 +1,14 @@
+ctrl_interface=/tmp/wpa_supplicant
+update_config=1
+#network={
+#     ssid="VinBigdata-Guest"
+#     psk="123456a@aa"
+#     key_mgmt=WPA-PSK
+#     priority=100
+#}
+wowlan_triggers=disconnect
+wps_cred_processing=2
+p2p_disabled=1
+p2p_no_group_iface=1
+config_methods=display push_button keypad
+driver_param=use_p2p_group_interface=1

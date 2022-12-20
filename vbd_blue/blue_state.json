@@ -1,0 +1,11 @@
+{
+	"bdaddr":	"3c:7c:3f:3a:76:8b",
+	"name":	"ROG Phone 5",
+	"state":	"UNPAIR",
+	"av_blue":	"ONLINE",
+	"av_state":	"STOP",
+	"hand_free_blue":	"OFFLINE",
+	"hand_free_state":	"NOTCALL",
+	"blue_state":	"ONLINE",
+	"avs_blue_connect":	"OFFLINE"
+}

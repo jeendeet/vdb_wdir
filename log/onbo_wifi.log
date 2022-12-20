@@ -1,0 +1,162 @@
+Create socket
+Bind socket
+Listen socket
+Got client connection....
+Message from client : GET /metadata-request HTTP/1.1
+user-agent: Dart/2.17 (dart:io)
+accept-encoding: gzip
+host: 10.10.10.254:8080
+
+
+HandleData::convert_to_string
+GET /metadata-request
+MetaDataRequest::metadata_request
+HandleData::file_to_json
+HandleData::convert_to_string
+HandleData::convert_to_string
+a9cded75ddc97562b5e0124af10c2362f3931489bceb748df61c3ab7bf4deee1
+HandleData::file_to_json
+HandleData::convert_to_string
+HttpResponse::create_response: begin
+HandleData::file_to_json
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HttpResponse::create_response: end
+Response : HTTP/1.1 200 OK
+Date: Tue Mar 23 07:50:54 2021
+Server: vinspeaker
+Last-Modified: Wed, 24 Mar 2022 16:05:58 GMT
+ETag: 56d-9989200-1132c580
+Content-Type: application/json; charset=utf-8
+Content-Length: 202
+Accept-Ranges: bytes
+Connection: close
+
+{"product_id": "VinBigdata-Speaker-123456","mac_address": "78:66:9d:19:57:e8","device_serial_number": "036000291452","code_challenge": "a9cded75ddc97562b5e0124af10c2362f3931489bceb748df61c3ab7bf4deee1"}
+Closing...
+Create socket
+Bind socket
+Listen socket
+Got client connection....
+Got client connection....
+Message from client : GET /wifi-scanner HTTP/1.1
+user-agent: Dart/2.17 (dart:io)
+accept-encoding: gzip
+host: 10.10.10.254:8080
+
+
+HandleData::convert_to_string
+GET /wifi-scanner
+WifiRequest::wifi_scanner_iw
+HandleSystem::exec cmd pwd
+WifiRequest::wifi_scanner_iw cmd /data/vbd_workdir/onbo_wifi/../common/wifi/iw wlan0 scan | egrep '(on wlan0)|WPA:|RSN:|signal|beacon interval|SSID|Supported rates|HT capabilities'
+HandleSystem::exec cmd /data/vbd_workdir/onbo_wifi/../common/wifi/iw wlan0 scan | egrep '(on wlan0)|WPA:|RSN:|signal|beacon interval|SSID|Supported rates|HT capabilities'
+HandleData::to_json_string
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+HttpResponse::create_response: begin
+HandleData::file_to_json
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HandleData::convert_to_string
+HttpResponse::create_response: end
+Response : HTTP/1.1 200 OK
+Date: Tue Mar 23 07:50:59 2021
+Server: vinspeaker
+Last-Modified: Wed, 24 Mar 2022 16:05:58 GMT
+ETag: 56d-9989200-1132c580
+Content-Type: application/json; charset=utf-8
+Content-Length: 830
+Accept-Ranges: bytes
+Connection: close
+
+{"cell_0":{"essid": "VinBigdata-Support","quality": "3/5","encryption": "on","signal_level": " -74.00 dBm"},"cell_1":{"essid": "VinBigdata-Staff","quality": "3/5","encryption": "on","signal_level": " -76.00 dBm"},"cell_2":{"essid": "VinBigdata-Guest","quality": "3/5","encryption": "on","signal_level": " -76.00 dBm"},"cell_3":{"essid": "GENESTORY","quality": "3/5","encryption": "on","signal_level": " -73.00 dBm"},"cell_4":{"essid": "AWINGVincom","quality": "3/5","encryption": "off","signal_level": " -83.00 dBm"},"cell_5":{"essid": "TP-Link_0FDE","quality": "3/5","encryption": "on","signal_level": " -69.00 dBm"},"cell_6":{"essid": "ViVi_22000005","quality": "3/5","encryption": "off","signal_level": " -57.00 dBm"},"cell_7":{"essid": "VinFast9C50D1B47788","quality": "3/5","encryption": "on","signal_level": " -61.00 dBm"}} 
+Closing...
+Create socket
+Bind socket
+Listen socket
+Got client connection....
+Got client connection....
+Got client connection....
+Message from client : GET /wifi-connect-request?ssid=VinBigdata-Guest&psk=123456a@ HTTP/1.1
+user-agent: Dart/2.17 (dart:io)
+accept-encoding: gzip
+host: 10.10.10.254:8080
+
+
+HandleData::convert_to_string
+GET /wifi-connect-request
+HandleData::get_str_between_two_str
+Decoded string: ssid=VinBigdata-Guest&psk=123456a@
+
+HandleData::convert_to_string
+HandleData::get_str_between_two_str
+HandleData::get_str_between_two_str
+request wifi connection
+WifiRequest::wifi_connect_request
+HandleSystem::exec cmd pwd
+HandleData::convert_to_string
+HandleData::convert_to_string
+WifiRequest::wifi_connect_request cmd source /data/vbd_workdir/onbo_wifi/script/wifi_connect_request.sh "VinBigdata-Guest" "123456a@"
+HandleSystem::exec cmd source /data/vbd_workdir/onbo_wifi/script/wifi_connect_request.sh "VinBigdata-Guest" "123456a@"
+HttpResponse::create_response: begin
+HandleData::file_to_json
+HandleData::convert_to_
